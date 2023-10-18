@@ -1,0 +1,35 @@
+/* .bgrow{
+  background-color: black;
+  background:url('map.png');
+  background-repeat: no-repeat;
+  background-color: black;
+
+} */
+.bg-row{
+  background: url("map.png"),no-repeat;
+  background-size: cover;
+  
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+  background-color:#EB9A00 !important;
+  border-radius: 50%;
+  font-size: 10px;
+  
+
+ .carousel-control-prev{
+    color: #fff !important;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9 !important;
+}
+  
+} 
+.playicon{
+  left:45%;
+  top:40%;
+}
+.bg-img{
+  background-image: url("background-img.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
