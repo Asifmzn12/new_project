@@ -31,5 +31,6 @@
 .bg-img{
   background-image: url("background-img.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: 100%;
 }
