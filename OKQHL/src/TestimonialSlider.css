@@ -1,0 +1,11 @@
+/* TestimonialSlider.css */
+/* Change arrow buttons color to yellow */
+.slick-prev,
+.slick-next {
+  color: yellow !important;
+}
+
+/* Change dots color to yellow */
+.slick-dots li button {
+  color: yellow !important;
+}
