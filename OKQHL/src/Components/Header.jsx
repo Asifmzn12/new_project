@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 function Header() {
 
     return (
-        <Navbar expand="lg" className="bg-body-tertiary py-2 py-md-3 text-uppercase navlinks">
+        <Navbar expand="lg" className="bg-body-tertiary py-2 py-md-3 text-uppercase navlinks" fixed='top'>
             <Container className="py-2 text-white">
                 <Navbar.Brand to="/">
                     <img src="image/Asif ali.png" className='img'></img>

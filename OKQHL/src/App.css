@@ -34,3 +34,61 @@
   background-size: cover;
   background-position: 100%;
 }
+  .content::after {
+    content: "";
+    position: absolute;
+    top: 30;
+    right: 0;
+    height: 90%;
+    border-right: 3px solid rgba(231, 231, 231, 1);
+    z-index: 0;
+}
+.border-right :nth-child(3) ::after{
+  content: "";
+  position: absolute;
+  top: 30;
+  right: 0;
+  height: 0%;
+  border-right: 0.1px solid #ffb933;
+  z-index: 9999;
+}
+.borderrounded{
+  border: 2px solid #ffb933;
+  border-radius: 40px;
+  box-shadow: 0px 4px 34px 0px rgba(0, 0, 0,0.1 );
+}
+.bgimg{
+  background-image: url("FourthSectionbg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+bg-img-carusal{
+  background-image: url("carausalbg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bgchild{
+  background: url("childbg.png"),no-repeat ;
+  background-size: cover;
+  background-position: 100%;
+}
+.footerbg{
+  background-color: rgba(27, 22, 19, 1);
+}
+.subfooter{
+  background-color: rgba(9,9,9,1);
+
+}
+.iconlogo{
+  top: 43%;
+  left: 40%;
+}
+.yellowbox{
+  z-index: -9999;
+}
+.box1{
+  left: 20%;
+}
+
