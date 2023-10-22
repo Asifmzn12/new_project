@@ -7,12 +7,12 @@ function Footer() {
             <div className="container py-5">
                 <div className="row pt-5 text-white justify-content-center align-items-start ">
                     <div className="col-md-5">
-                        <p>Website designed and built by Plaxonic technologies Pvt Ltd
+                        <p className='footer-about'>Website designed and built by Plaxonic technologies Pvt Ltd
                             For technical issues with this website, please contact the webmistress at:mailto : contact@plaxonic.com This site was last modified on 12 july, 2023</p>
                     </div>
                     <div className="col-md-3 d-flex flex-column justify-content-center align-items-start align-items-lg-center">
                         <div className="navlinks">
-                            <h5>What We Do?</h5>
+                            <h5 className='footer-navtitle'>What We Do?</h5>
                             <ul className=" list-unstyled">
 
                             <h5>Lorem ipsum</h5>
@@ -28,7 +28,7 @@ function Footer() {
                     </div>
                     <div className="col-md-3">
                         <div className="navlinks">
-                            <h5>What We Do?</h5>
+                            <h5 className='footer-nav-title'>What We Do?</h5>
                             <ul className=" list-unstyled">
 
                                 <h5>Lorem ipsum</h5>
@@ -54,7 +54,7 @@ function Footer() {
                 <div className="container">
                     <div className="row justify-content-evenly align-items-start ">
                         <div className="col-md-5 ms-1">
-                            <p>© Copyright 2018 Order of Kings and Queens in the Holy Lands</p>
+                            <p className='copywrite'>© Copyright 2018 Order of Kings and Queens in the Holy Lands</p>
                         </div>
                         <div className="col-md-6 icons d-flex justify-content-center gap-4">
                             <BiLogoFacebookCircle size={"30px"} />
