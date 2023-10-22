@@ -1,160 +1,79 @@
+// import { useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './TestimonialSlider.css'; // Import your CSS file for custom styles if needed
+import './TestimonialSlider.css';
+import { dataDigitalBestSeller } from './config/data';
 
-const testimonials = [
-  {
-    id: 1,
-    name: 'John Doe',
-    text: (
-      <span className="testimonial-text">
-        <span className="quotation-left">“</span>This is the first testimonial text.<span className="quotation-right">”</span>
-      </span>
-    ),
-  },
-  {
-    id: 2,
-    name: 'Jane Smith',
-    text: (
-      <span className="testimonial-text">
-        <span className="quotation-left">“</span>This is the second testimonial text.<span className="quotation-right">”</span>
-      </span>
-    ),
-  },
-  {
-    id: 3,
-    name: 'Jane Smith',
-    text: (
-      <span className="testimonial-text">
-        <span className="quotation-left">“</span>This is the second testimonial text.<span className="quotation-right">”</span>
-      </span>
-    ),
-  }, {
-    id: 4,
-    name: 'Jane Smith',
-    text: (
-      <span className="testimonial-text">
-        <span className="quotation-left">“</span>This is the second testimonial text.<span className="quotation-right">”</span>
-      </span>
-    ),
-  },
-  {
-    id: 1,
-    name: 'John Doe',
-    text: (
-      <span className="testimonial-text">
-        <span className="quotation-left">“</span>This is the first testimonial text.<span className="quotation-right">”</span>
-      </span>
-    ),
-  },
-  {
-    id: 2,
-    name: 'Jane Smith',
-    text: (
-      <span className="testimonial-text">
-        <span className="quotation-left">“</span>This is the second testimonial text.<span className="quotation-right">”</span>
-      </span>
-    ),
-  },
-  {
-    id: 3,
-    name: 'Jane Smith',
-    text: (
-      <span className="testimonial-text">
-        <span className="quotation-left">“</span>This is the second testimonial text.<span className="quotation-right">”</span>
-      </span>
-    ),
-  }, {
-    id: 4,
-    name: 'Jane Smith',
-    text: (
-      <span className="testimonial-text">
-        <span className="quotation-left">“</span>This is the second testimonial text.<span className="quotation-right">”</span>
-      </span>
-    ),
-  }, {
-    id: 1,
-    name: 'John Doe',
-    text: (
-      <span className="testimonial-text">
-        <span className="quotation-left">“</span>This is the first testimonial text.<span className="quotation-right">”</span>
-      </span>
-    ),
-  },
-  {
-    id: 2,
-    name: 'Jane Smith',
-    text: (
-      <span className="testimonial-text">
-        <span className="quotation-left">“</span>This is the second testimonial text.<span className="quotation-right">”</span>
-      </span>
-    ),
-  },
-  {
-    id: 3,
-    name: 'Jane Smith',
-    text: (
-      <span className="testimonial-text">
-        <span className="quotation-left">“</span>This is the second testimonial text.<span className="quotation-right">”</span>
-      </span>
-    ),
-  }, {
-    id: 4,
-    name: 'Jane Smith',
-    text: (
-      <span className="testimonial-text">
-        <span className="quotation-left">“</span>This is the second testimonial text.<span className="quotation-right">”</span>
-      </span>
-    ),
-  },
-  // Add more testimonial objects as needed
-];
-const TestimonialSlider = () => {
+
+function Section6() {
+  // const [defaultImage, setDefaultImage] = useState({});
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
-    slidesToShow: 4, // Display 4 cards in one slide
-    slidesToScroll: 3,
-    autoplay: false,
-    autoplaySpeed: 2000,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    initialSlide: 0,
     responsive: [
       {
-        breakpoint: 1200, // Adjust the breakpoint as needed
+        breakpoint: 1024,
         settings: {
-          slidesToShow: 3, // Display 3 cards in one slide on screens less than 1200px wide
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true,
         },
       },
       {
-        breakpoint: 992, // Adjust the breakpoint as needed
+        breakpoint: 600,
         settings: {
-          slidesToShow: 2, // Display 2 cards in one slide on screens less than 992px wide
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
         },
       },
       {
-        breakpoint: 768, // Adjust the breakpoint as needed
+        breakpoint: 480,
         settings: {
-          slidesToShow: 1, // Display 1 card in one slide on screens less than 768px wide
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],
   };
 
+  // const handleErrorImage = (data) => {
+  //   setDefaultImage((prev) => ({
+  //     ...prev,
+  //     [data.target.alt]: data.target.alt,
+  //     linkDefault: "",
+  //   }));
+  // };
 
   return (
-    
-    <div className="testimonial-slider-container container py-5 ">
-      <Slider {...settings} className='py-5'>
-        {testimonials.map((testimonial) => (
-          <div key={testimonial.id} style={{ margin: '0 20px' }} className='box-shadow bg-white t'>
-            {/* Your card content here */}
-            <p>{testimonial.text}</p>
-            <h3>{testimonial.name}</h3>
+    <div className="Section6  bg-slide py-5">
+    <div className='container py-5'>
+      <Slider {...settings}>
+        {dataDigitalBestSeller.map((item) => (
+        
+          <div className="box" key={item.id}>
+           <div className=" d-flex flex-column justify-content-center align-items-center gap-2">
+             <p>{item.title}</p>
+             <div className='d-flex flex-column justify-content-center align-items-center'>
+              <img src={item.centerimg} className='img-fluid'></img>
+              <h4>{item.name}</h4>
+              <p>{item.star}</p>
+              <img src={item.secondimg} className='img-fluid'></img>
+             </div>
+             
+            </div>
           </div>
         ))}
       </Slider>
     </div>
+    </div>
   );
-};
-export default TestimonialSlider;
+}
+
+export default Section6;

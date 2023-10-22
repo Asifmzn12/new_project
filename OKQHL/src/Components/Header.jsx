@@ -1,13 +1,14 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import "./Header.css"
 function Header() {
 
     return (
-        <Navbar expand="lg" className="bg-body-tertiary py-2 py-md-3 text-uppercase navlinks" fixed='top'>
-            <Container className="py-2 text-white">
+        <Navbar expand="lg" className="bg-body-tertiary py-2 py-md-1 text-uppercase navlinks bg-color" fixed='top'>
+            <Container className="py-1 text-white">
                 <Navbar.Brand to="/">
-                    <img src="image/Asif ali.png" className='img'></img>
+                    <img src="logo.png" className='img-fluid'></img>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
