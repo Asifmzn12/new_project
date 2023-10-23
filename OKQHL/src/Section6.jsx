@@ -53,25 +53,24 @@ function Section6() {
 
   return (
     <div className="Section6  bg-slide py-5">
-    <div className='container py-5'>
-      <Slider {...settings}>
-        {dataDigitalBestSeller.map((item) => (
-        
-          <div className="box" key={item.id}>
-           <div className=" d-flex flex-column justify-content-center align-items-center gap-2">
-             <p>{item.title}</p>
-             <div className='d-flex flex-column justify-content-center align-items-center'>
-              <img src={item.centerimg} className='img-fluid'></img>
-              <h4>{item.name}</h4>
-              <p>{item.star}</p>
-              <img src={item.secondimg} className='img-fluid'></img>
-             </div>
-             
+      <div className='container py-5'>
+        <Slider {...settings}>
+          {dataDigitalBestSeller.map((item) => (
+            <div className="box" key={item.id}>
+              <div className=" d-flex flex-column justify-content-center align-items-center gap-2">
+                <p>{item.title}</p>
+                <div className='d-flex flex-column justify-content-center align-items-center'>
+                  <img src={item.centerimg} className='img-fluid'></img>
+                  <h4>{item.name}</h4>
+                  <p>{item.star}</p>
+                  <img src={item.secondimg} className='img-fluid'></img>
+                </div>
+
+              </div>
             </div>
-          </div>
-        ))}
-      </Slider>
-    </div>
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 }

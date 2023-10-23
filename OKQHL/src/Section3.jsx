@@ -18,7 +18,7 @@ function Section3() {
                                 </div>
                             </div>
                         ))}
-                        
+
                     </div>
                     <div className="col-md-4 position-absolute top-0 yellowbox box1 d-none d-xl-block   ">
                         <img src="yellowbox.png" className="img-fluid "></img>

@@ -12,16 +12,16 @@ import Footer from "./Components/Footer"
 function App() {
   return (
     <div>
-  <Header/>
-  <Home/>
-  <Section2/>
-  <Section3/>
-  <Section4/>
-<Section5/>
-<Section6/>
-<Section7/>
-<Footer/>
-</div>
+      <Header />
+      <Home />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+      <Section5 />
+      <Section6 />
+      <Section7 />
+      <Footer />
+    </div>
   )
 }
 

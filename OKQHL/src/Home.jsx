@@ -14,9 +14,9 @@ function Home() {
 
                     </div>
                     <h5 className="home-title"> <span>Order of the</span> <br></br>
-                    Kings and Queens <br/>
-                    in the Holy Lands</h5>
-                    <p className="content">is simply dummy text of thprinting and typesetting ndustry.Lorem Ipsum has been the industry's stand ard dummy text ever since
+                      Kings and Queens <br />
+                      in the Holy Lands</h5>
+                    <p className="content">is simply dummy text of thprinting and typesetting ndustry.Lorem Ipsum has been the industry&apos;s stand ard dummy text ever since
                     </p>
                     <button className="learnMore">Membership</button>
                   </div>

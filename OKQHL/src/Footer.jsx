@@ -15,14 +15,10 @@ function Footer() {
                             <h5 className='footer-navtitle'>What We Do?</h5>
                             <ul className=" list-unstyled">
 
-                            <h5>Lorem ipsum</h5>
-                            <h5>Lorem ipsum</h5>
-                            <h5>Lorem ipsum</h5>
-
+                                <h5>Lorem ipsum</h5>
+                                <h5>Lorem ipsum</h5>
+                                <h5>Lorem ipsum</h5>
                             </ul>
-
-
-
 
                         </div>
                     </div>
@@ -36,18 +32,10 @@ function Footer() {
                                 <h5>Lorem ipsum</h5>
 
                             </ul>
-
-
-
-
                         </div>
 
                     </div>
                 </div>
-
-
-
-
             </div>
 
             <div className="subfooter py-4 text-white position-absolute w-100 ">
@@ -61,20 +49,12 @@ function Footer() {
                             <BiLogoInstagramAlt size={"30px"} />
                             <AiFillTwitterCircle size={"30px"} />
                             <BiLogoYoutube size={"30px"} />
-
-
-
-
                         </div>
                     </div>
 
                 </div>
 
             </div>
-
-
-
-
         </div>
     )
 }

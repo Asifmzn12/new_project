@@ -5,45 +5,51 @@
   background-color: black;
 
 } */
-.bg-row{
-  background: url("map.png"),no-repeat;
+.bg-row {
+  background: url("map.png"), no-repeat;
   background-size: cover;
-  
+
 }
-.carousel-control-next-icon,.carousel-control-prev-icon{
-  background-color:#EB9A00 !important;
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #EB9A00 !important;
   border-radius: 50%;
   font-size: 10px;
-  
 
- .carousel-control-prev{
+
+  .carousel-control-prev {
     color: #fff !important;
     text-decoration: none;
     outline: 0;
     opacity: .9 !important;
+  }
+
 }
-  
-} 
-.playicon{
-  left:45%;
-  top:40%;
+
+.playicon {
+  left: 45%;
+  top: 40%;
 }
-.bg-img{
+
+.bg-img {
   background-image: url("background-img.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
 }
-  .content::after {
-    content: "";
-    position: absolute;
-    top: 30;
-    right: 0;
-    height: 90%;
-    border-right: 3px solid rgba(231, 231, 231, 1);
-    z-index: 0;
+
+.content::after {
+  content: "";
+  position: absolute;
+  top: 30;
+  right: 0;
+  height: 90%;
+  border-right: 3px solid rgba(231, 231, 231, 1);
+  z-index: 0;
 }
-.border-right :nth-child(3) ::after{
+
+.border-right :nth-child(3) ::after {
   content: "";
   position: absolute;
   top: 30;
@@ -52,43 +58,51 @@
   border-right: 0.1px solid #ffb933;
   z-index: 9999;
 }
-.borderrounded{
+
+.borderrounded {
   border: 2px solid #ffb933;
   border-radius: 40px;
-  box-shadow: 0px 4px 34px 0px rgba(0, 0, 0,0.1 );
+  box-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.1);
 }
-.bgimg{
+
+.bgimg {
   background-image: url("FourthSectionbg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-bg-img-carusal{
+
+bg-img-carusal {
   background-image: url("carausalbg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.bgchild{
-  background: url("childbg.png"),no-repeat ;
+
+.bgchild {
+  background: url("childbg.png"), no-repeat;
   background-size: cover;
   background-position: 100%;
 }
-.footerbg{
+
+.footerbg {
   background-color: rgba(27, 22, 19, 1);
 }
-.subfooter{
-  background-color: rgba(9,9,9,1);
+
+.subfooter {
+  background-color: rgba(9, 9, 9, 1);
 
 }
-.iconlogo{
+
+.iconlogo {
   top: 43%;
   left: 40%;
 }
-.yellowbox{
+
+.yellowbox {
   z-index: -9999;
 }
-.box1{
+
+.box1 {
   left: 20%;
 }
-

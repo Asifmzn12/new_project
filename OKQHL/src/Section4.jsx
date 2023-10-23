@@ -13,8 +13,8 @@ function Section4() {
                             <div className="col-md-12">
                                 <h5 className="top-heading text-uppercase">Lorem ipsum</h5>
                                 <h4 className="sub-heading">Here to Bring People
-                                  <br></br>  Together to Help</h4>
-                                <p className="content">The majority have suffered alteration all injected humours randomises.There are many variations of passages of lorem ipsum available, but the majority have suffered alteration all form injected humours randomises don't look even slightly belvable.</p>
+                                    <br></br>  Together to Help</h4>
+                                <p className="content">The majority have suffered alteration all injected humours randomises.There are many variations of passages of lorem ipsum available, but the majority have suffered alteration all form injected humours randomises don&apos;t look even slightly belvable.</p>
 
                             </div>
                             <div className="col-md-4"></div>
@@ -30,13 +30,13 @@ function Section4() {
 
                             </div>
                             <div className="col-md-5 bg-white  rightbox py-4 d-flex flex-column justify-content-center align-items-center">
-                            <div className="py-2 my-3 my-md-0">
-                                <img src="users.png" className="img-fluid"></img>
-                            </div>
-                            <h6 className="numbers">2k</h6>
-                            <p className="users">Beneficiaries</p>
+                                <div className="py-2 my-3 my-md-0">
+                                    <img src="users.png" className="img-fluid"></img>
+                                </div>
+                                <h6 className="numbers">2k</h6>
+                                <p className="users">Beneficiaries</p>
 
-                        </div>
+                            </div>
                         </div>
 
 
