@@ -3,7 +3,7 @@ function Section7() {
   return (
     <div className="bgchild py-5">
       <div className="container py-5">
-        <div className="row pt-5 justify-content-between align-items-start">
+        <div className="row pt-5 py-5 justify-content-between align-items-start">
           <div className="col-md-12 col-lg-6 position-relative">
             <div className="img position-relative">
               <img src="section7.png" className="img-fluid" alt=""></img>

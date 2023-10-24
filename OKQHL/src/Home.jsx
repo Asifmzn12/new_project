@@ -13,15 +13,17 @@ function Home() {
                       <img src="title-icon.png" className="img-fluid"></img>
 
                     </div>
-                    <h5 className="home-title"> <span>Order of the</span> <br></br>
+                    <h5 className="home-title homeHeading"> <span className=" home-slderHeading">Order of the</span> <br></br>
                       Kings and Queens <br />
                       in the Holy Lands</h5>
                     <p className="content">is simply dummy text of thprinting and typesetting ndustry.Lorem Ipsum has been the industry&apos;s stand ard dummy text ever since
                     </p>
                     <button className="learnMore">Membership</button>
                   </div>
-                  <div className="col-md-8">
-                    <img src="mainslider.png" className="img-fluid"></img>
+                  <div className="col-md-8 position-relative">
+                  <img src="firecenter.png" className="img-fluid "></img>
+                    <img src="map.png" className="img-fluid "></img>
+                   
 
                   </div>
 

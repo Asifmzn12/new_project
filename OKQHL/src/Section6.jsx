@@ -13,7 +13,7 @@ function Section6() {
     infinite: false,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     initialSlide: 0,
     responsive: [
       {
@@ -42,6 +42,7 @@ function Section6() {
       },
     ],
   };
+  
 
   // const handleErrorImage = (data) => {
   //   setDefaultImage((prev) => ({
@@ -57,13 +58,25 @@ function Section6() {
         <Slider {...settings}>
           {dataDigitalBestSeller.map((item) => (
             <div className="box" key={item.id}>
-              <div className=" d-flex flex-column justify-content-center align-items-center gap-2">
-                <p>{item.title}</p>
+              <div className=" d-flex flex-column justify-content-center align-items-center gap-3  bg-white">
+                <p className='content-2 mx-4 py-5 text-capitalize'><span className='heading1'>“</span> {item.title}  <span className='heading1'>”</span></p>
                 <div className='d-flex flex-column justify-content-center align-items-center'>
-                  <img src={item.centerimg} className='img-fluid'></img>
-                  <h4>{item.name}</h4>
-                  <p>{item.star}</p>
-                  <img src={item.secondimg} className='img-fluid'></img>
+                <div className='img-content position-relative d-flex justify-content-center align-items-center flex-column'>
+                 <div className='position-absolute my-3 ratingBox'>
+                 <img src={item.centerimg} className='img-fluid '></img>
+                 <div>
+                 
+                 </div>
+               
+                 </div>
+               
+                <div className='position-relative position-absolute ratingbox1 '>
+                <h4 className=' text-white ratingauthor'>{` ${item.name}`}</h4>
+                <p className='text-white ltrspace'>{item.star}</p>
+                </div>
+                <img src={item.secondimg} className='img-fluid'></img>
+                </div>
+                 
                 </div>
 
               </div>

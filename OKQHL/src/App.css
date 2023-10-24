@@ -5,6 +5,10 @@
   background-color: black;
 
 } */
+
+body{
+  padding-top: 75px;
+}
 .bg-row {
   background: url("map.png"), no-repeat;
   background-size: cover;
@@ -39,23 +43,14 @@
   background-position: 100%;
 }
 
-.content::after {
-  content: "";
-  position: absolute;
-  top: 30;
-  right: 0;
-  height: 90%;
-  border-right: 3px solid rgba(231, 231, 231, 1);
-  z-index: 0;
-}
 
-.border-right :nth-child(3) ::after {
+.brdr ::after {
   content: "";
   position: absolute;
-  top: 30;
+  top: 20px;
   right: 0;
-  height: 0%;
-  border-right: 0.1px solid #ffb933;
+  height: 100%;
+  border-right: 1px solid rgba(231, 231, 231, 1);
   z-index: 9999;
 }
 
@@ -105,4 +100,54 @@ bg-img-carusal {
 
 .box1 {
   left: 20%;
+}
+.content-2{
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+ color: rgba(121, 121, 121, 1)
+}
+.box{
+  height: 500px;
+}
+.ltrspace{
+  letter-spacing: 15px;
+  color:rgba(235, 255, 0, 1) !important;
+}
+.heading1{
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+.ratingBox{
+  top: -40px;
+  right: 33%;
+}
+.ratingbox1{
+top: 50px;
+left: 38%;
+}
+.ratingauthor{
+font-family: var(--primary-font);
+font-weight: 800;
+font-size: 1.2rem;
+
+
+}
+.cardtittle{
+font-family: var(--primary-font);
+font-weight: 700;
+font-size: 1.1rem;
+line-height: 1.3rem;
+
+}
+.cardcontent{
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  color:rgba(132, 132, 132, 1);
+  margin-inline: 88px;
+  ;
 }

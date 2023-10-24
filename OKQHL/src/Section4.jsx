@@ -2,14 +2,14 @@
 function Section4() {
     return (
         <div className="bgimg">
-            <div className="container">
+            <div className="container py-5">
                 <div className="row py-5  justify-content-between align-items-center">
                     <div className="col-lg-6 col-md-12">
                         <img src="4thsection.png" className="img-fluid"></img>
 
                     </div>
                     <div className="col-lg-5 col-md-12">
-                        <div className="row py-">
+                        <div className="row ">
                             <div className="col-md-12">
                                 <h5 className="top-heading text-uppercase">Lorem ipsum</h5>
                                 <h4 className="sub-heading">Here to Bring People
@@ -20,7 +20,7 @@ function Section4() {
                             <div className="col-md-4"></div>
                         </div>
                         <div className="row py-5 justify-content-md-between justify-content-evenly">
-                            <div className="col-md-5 bg-white leftbox d-flex flex-column justify-content-center align-items-center py-4" >
+                            <div className="col-md-5 bg-white leftbox d-flex flex-column justify-content-center align-items-center py-4 gap-2 shadow-lg" >
                                 <div className="py-2 my-3 my-md-0">
                                     <img src="heart.png" className="img-fluid"></img>
 
@@ -29,7 +29,7 @@ function Section4() {
                                 <p className="users">Volunteers</p>
 
                             </div>
-                            <div className="col-md-5 bg-white  rightbox py-4 d-flex flex-column justify-content-center align-items-center">
+                            <div className="col-md-5 bg-white  rightbox py-4 d-flex flex-column justify-content-center align-items-center shadow-lg gap-2">
                                 <div className="py-2 my-3 my-md-0">
                                     <img src="users.png" className="img-fluid"></img>
                                 </div>

@@ -1,12 +1,13 @@
 /* Header.css */
 .nav-link {
-    color: white;
+ color: rgba(215, 215, 215, 1);
     position: relative;
 padding: 5px 0px;  
 font-family: var(--primary-font);
 font-weight: 400; 
-font-size: 1.4rem;
+font-size: 1.3rem;
 line-height: 3rem;
+
 }
 
 
