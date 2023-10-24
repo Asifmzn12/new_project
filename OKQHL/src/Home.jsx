@@ -55,9 +55,9 @@ function Section6() {
       <div className='container py-5'>
         <Slider {...settings}>
 
-          <div className="carousel-item">
-            <div className="row py-5 justify-content-center">
-              <div className="col-lg-4">
+          <div className="carousel-item py-5">
+            <div className="row  py-5 justify-content-center">
+              <div className="col-lg-4 col-12">
                 <div className="text-content">
                   <img src="title-icon.png" className="img-fluid" alt="Title Icon" />
                   <h5 className="home-title homeHeading text-white">
@@ -72,15 +72,15 @@ function Section6() {
                   <button className="learnMore">Membership</button>
                 </div>
               </div>
-              <div className="col-md-8 position-relative">
-                <img src="firecenter.png" className="img-fluid locationmap" alt="Fire Center" />
+              <div className="col-md-8 col-12 position-relative">
+                <img src="locations.png" className="img-fluid locationmap" alt="Fire Center" />
                 <img src="map.png" className="img-fluid map" alt="Map" />
               </div>
             </div>
           </div>
 
           <div className="carousel-item">
-            <div className="row pt-1 justify-content-center">
+            <div className="row justify-content-center">
               <div className="col-lg-4">
                 <div className="text-content">
                   <img src="title-icon.png" className="img-fluid" alt="Title Icon" />
