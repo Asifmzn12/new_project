@@ -40,7 +40,9 @@ body{
   background-image: url("background-img.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 100%;
+  background-position: bottom;
+  padding: 110px 0px 0px 0px!important;
+
 }
 
 
@@ -150,4 +152,17 @@ line-height: 1.3rem;
   color:rgba(132, 132, 132, 1);
   margin-inline: 88px;
   ;
+}
+
+
+.locationmap{
+  position: absolute;
+  top: -187px;
+  right: -127px;
+}
+.map{
+  position: relative;
+  z-index: -99;
+  top: 40px;
+
 }

@@ -70,3 +70,10 @@ background-position: 100%;
   border-radius:none !important;
   width: 40px !important;
 }
+.slick-prev:before,.slick-next:before{
+  color: var(--primary-color) !important;
+  font-size: 25px;
+}
+.slick-prev::before{
+  margin-left: -60px;
+}

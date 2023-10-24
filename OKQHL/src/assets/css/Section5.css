@@ -17,10 +17,11 @@
 
     }
   .homeHeading{
-    font-family: var( --secondry-font);
+    font-family: var(--secondry-font);
     font-weight: 400;
-    font-size: 2.6rem;
-    line-height: 4rem;
+    font-size: 2.2rem;
+    line-height: 3rem;
+
 
   }
 

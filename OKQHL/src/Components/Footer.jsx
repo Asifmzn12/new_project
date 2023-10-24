@@ -11,7 +11,7 @@ function Footer() {
                         <p className='footer-about'>Website designed and built by Plaxonic technologies Pvt Ltd
                             For technical issues with this website, please contact the webmistress at:mailto : contact@plaxonic.com This site was last modified on <strong>12 july, 2023</strong></p>
                     </div>
-                    <div className="col-md-3 d-flex flex-column justify-content-center align-items-start align-items-lg-center">
+                    <div className="col-md-3 col-12 col-sm-6 d-flex flex-column justify-content-center align-items-start align-items-lg-center">
                         <div className="navlinks">
                             <h5 className='nav-title'>What We Do?</h5>
                             <ul className=" list-unstyled footernav" >
@@ -27,7 +27,7 @@ function Footer() {
 
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 col-sm-6 col-12">
                         <div className="navlinks">
                             <h5 className='nav-title'>What We Do?</h5>
                             <ul className=" list-unstyled footernav">
