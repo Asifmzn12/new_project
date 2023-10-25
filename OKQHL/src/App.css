@@ -6,6 +6,9 @@
 
 } */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Roboto:wght@400;500;700&display=swap');
+
 body{
   padding-top: 75px;
 }
@@ -41,7 +44,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  padding: 110px 0px 0px 0px!important;
+  padding: 110px 0px 50px 0px!important;
 
 }
 
@@ -78,7 +81,8 @@ bg-img-carusal {
 .bgchild {
   background: url("childbg.png"), no-repeat;
   background-size: cover;
-  background-position: 100%;
+  background-position: 50% 55%;
+  
 }
 
 .footerbg {
@@ -100,7 +104,10 @@ bg-img-carusal {
 }
 
 .box1 {
-  left: 20%;
+  left: 23%;
+}
+.box-2{
+  right: 4%;
 }
 .content-2{
   font-family: var(--primary-font);
@@ -120,6 +127,7 @@ bg-img-carusal {
   font-weight: 900;
   font-size: 2.5rem;
   color: var(--primary-color);
+  letter-spacing:-5px;
 }
 .ratingBox{
   top: -40px;
@@ -149,19 +157,40 @@ line-height: 1.3rem;
   font-size: 1rem;
   line-height: 1.8rem;
   color:rgba(132, 132, 132, 1);
-  margin-inline: 88px;
+  margin-inline: 40px;
   ;
 }
 
 
 .locationmap{
   position: absolute;
-  top: -120px;
-  right: -127px;
+  top: -208px;
+  right: -101px;
 }
 .map{
   position: relative;
   z-index: -99;
-  top: 130px;
+  top: 10px;
 
+}
+
+.home-slider .slick-prev, .slick-next{
+  top: 32% !important;
+}
+.img-section{
+  top: 170px !important;
+}
+.cardbox{
+  max-width: 700px;
+
+}
+.borderrounded{
+  max-width: 45%;
+}
+@media only screen and (max-width:786px){
+  .borderrounded{
+    border: none;
+    max-width: 100%;
+    box-shadow: none;
+  }
 }

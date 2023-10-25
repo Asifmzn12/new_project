@@ -2,9 +2,9 @@ import "./assets/css/Section5.css"
 function Section5() {
     return (
         <div className="">
-            <div className="container py-5">
-                <div className="row py-5">
-                    <div className="col-lg-6 col-md-12 py-4">
+            <div className="container py-lg-5 py-1">
+                <div className="row">
+                    <div className="col-lg-6 col-md-12 ">
                         <div className=" d-flex flex-column gap-2">
                             <h5 className="top-heading">WHERE IT ALL BEGAN</h5>
                             <h4 className="sub-heading">Become a member</h4>

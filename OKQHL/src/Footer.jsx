@@ -4,7 +4,7 @@ import { AiFillTwitterCircle } from 'react-icons/ai'
 function Footer() {
     return (
         <div className="footerbg py-lg-5 py-2 position-relative">
-            <div className="container py-5">
+            <div className="container py-lg-5 py-1">
                 <div className="row pt-5 text-white justify-content-center align-items-start ">
                     <div className="col-md-5">
                         <p className='footer-about'>Website designed and built by Plaxonic technologies Pvt Ltd

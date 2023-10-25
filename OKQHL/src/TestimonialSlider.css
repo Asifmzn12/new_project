@@ -9,7 +9,7 @@
 
 
 .slick-slide > div {
-  margin: 0 10px;
+  margin: 10px 20px;
 }
 .slick-list {
   margin: 0 -10px;
@@ -71,8 +71,9 @@ background-position: 100%;
   width: 40px !important;
 }
 .slick-prev:before,.slick-next:before{
-  color: var(--primary-color) !important;
-  font-size: 25px;
+color:var(--button-bg);
+border-radius: 50%;
+  font-size: 23px;
 }
 /* .slick-prev::before{
   margin-left: -60px;
@@ -83,3 +84,22 @@ background-position: 100%;
   border-radius: 0px; 
 }
 
+.home-slider .slick-prev{
+  left: -90px !important;
+}
+.home-slider .slick-next{
+  right: 165px !important;
+}
+#testimonial-card .slick-slider .slick-prev:before, .slick-next:before{
+
+}
+.testimonial-card{
+  border-radius: 10px;
+
+}
+.testimonial-card{
+  box-shadow: 0px 4px 26px 0px rgba(255, 183, 46, 0.6);
+}
+.mrgn{
+  margin: -20px 0px;
+}

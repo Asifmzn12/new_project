@@ -9,7 +9,7 @@
     }
     .home-slderHeading{
 
-        font-family: var( --secondry-font);
+        font-family: var( --accent-color);
         font-weight: 700;
         font-size: 2.6rem;
         color: var(--primary-color);
@@ -30,7 +30,6 @@
         font-family: var(--primary-font);
         font-weight: 700;
         font-size: 2.2rem;
-        text-transform: uppercase;
         line-height: 4rem;
     }
     .content{

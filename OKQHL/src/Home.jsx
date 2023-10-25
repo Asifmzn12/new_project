@@ -5,22 +5,43 @@ import 'slick-carousel/slick/slick-theme.css';
 import './TestimonialSlider.css';
 
 
-function Section6() {
+function HomeSlider() {
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block" }}
+        onClick={onClick}
+      />
+    );
+  }
+  
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block",color:"white " }}
+        onClick={onClick}
+      />
+    );
+  }
+
   // const [defaultImage, setDefaultImage] = useState({});
   const settings = {
-    infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 3,
     initialSlide: 0,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 2,
-          infinite: true,
-          dots: true,
         },
       },
       {
@@ -51,12 +72,13 @@ function Section6() {
   // };
 
   return (
-    <div className="Section6  bg-img py-5">
-      <div className='container py-5'>
-        <Slider {...settings}>
+    <div className="HomeSlider
+    bg-img py-lg-5 py-1">
+      <div className='container py-lg-5 py-1'>
+        <Slider {...settings} className='home-slider'>
 
-          <div className="carousel-item py-5">
-            <div className="row  py-5 justify-content-center">
+          <div className="carousel-item py-lg-5 py-1">
+            <div className="row  py-lg-5 py-1 justify-content-center">
               <div className="col-lg-4 col-12">
                 <div className="text-content">
                   <img src="title-icon.png" className="img-fluid" alt="Title Icon" />
@@ -72,7 +94,7 @@ function Section6() {
                   <button className="learnMore">Membership</button>
                 </div>
               </div>
-              <div className="col-md-8 col-12 position-relative">
+              <div className="col-md-8 col-12 position-relative img-section">
                 <img src="locations.png" className="img-fluid locationmap" alt="Fire Center" />
                 <img src="map.png" className="img-fluid map" alt="Map" />
               </div>
@@ -82,7 +104,7 @@ function Section6() {
           <div className="carousel-item">
             <div className="row justify-content-center">
               <div className="col-lg-4">
-                <div className="text-content">
+                <div className="text-content d-flex flex-column justify-content-center align-items-start gap-3 ">
                   <img src="title-icon.png" className="img-fluid" alt="Title Icon" />
                   <h5 className="home-title homeHeading text-white">
                     <span className="home-slderHeading">Order of the</span> <br />
@@ -96,7 +118,7 @@ function Section6() {
                   <button className="learnMore">Membership</button>
                 </div>
               </div>
-              <div className="col-md-8 position-relative">
+              <div className="col-md-8 position-relative img-section">
                 <img src="firecenter.png" className="img-fluid locationmap" alt="Fire Center" />
                 <img src="map.png" className="img-fluid map" alt="Map" />
               </div>
@@ -110,4 +132,4 @@ function Section6() {
   );
 }
 
-export default Section6;
+export default HomeSlider;
